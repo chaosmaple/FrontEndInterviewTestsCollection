@@ -380,13 +380,13 @@ HTML5？
 > JavaScript Object Notation,js对象标记法，一种数据格式。它就是基于javascript的，所以在js中也可以十分方便地操作这种数据。
 
 
-- ```
+-  能解释一下这段代码的意思吗？
+
+```
 [].forEach.call($$("*"),function(a){
-  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)
+    a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)
 })
 ```
-
-能解释一下这段代码的意思吗？
 
 > 调用了数组的forEach方法，将this绑定到$$('*')上，并传入一个匿名函数的参数
 
@@ -401,6 +401,8 @@ HTML5？
 > html5中新加了async属性，可以放在script标签中异步加载。还有一个兼容性比较好的defer属性。
 
 -  ajax 是什么?
+
+> Asynchronous Javascript And XML，一种web技术，可以异步加载数据，它可以使用javascript向服务器发送请求并处理响应，不阻塞用户，依靠它可以创造更好更快交互性更强的web app。
 
 -  同步和异步的区别?
 
